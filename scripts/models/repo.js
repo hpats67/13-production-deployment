@@ -21,11 +21,6 @@
     function errorHandler(error) {
       console.log('ERROR', error);
     };
-  //   $.get('/github/users/codefellows-portland-301d6/repos' +
-  //         '?per_page=10&sort=updated')
-  //         .done(function(data) {
-  //           reposObj.allRepos = data;
-  //         }).done(callback);
   };
 
   reposObj.withTheAttribute = function(attr) {
